@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &a);
 
     printf("Enter operator (+, -, *, /, %%): ");
-    scanf(" %c", &op);  // space before %c to ignore newline
+    scanf(" %c", &op);  
 
     printf("Enter second number: ");
     scanf("%d", &b);
@@ -42,3 +42,4 @@ int main() {
 
     return 0;
 }
+
